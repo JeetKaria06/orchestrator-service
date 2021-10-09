@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "github.com/JeetKaria06/orchestrator-service/logic/proto";
+
+package real_orchestrator_proto;
+
+service real_orchestrator {
+    rpc GetUserByName (NameRequest) returns (User) {};
+    rpc GetUser (NameRequest) returns (User) {};
+}
+
+message NameRequest {
+    string name = 1;
+}
+
+message User {
+    string name = 1;
+    string class = 2;
+    int64 roll = 3;
+}
