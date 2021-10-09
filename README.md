@@ -71,8 +71,8 @@ go run logic/client/main.go
 ---
 **NOTE**
 
-Operating System Used for Developement = Windows
-GOPATH = %USERPROFILE%\go --> C:\Users\i\go
-Path of Repository in local = D:\Activities\orchestrator-service
+Operating System Used for Developement = ```Windows``` </br>
+GOPATH = ```%USERPROFILE%\go``` &#8594; ```C:\Users\i\go``` </br>
+Path of Repository in local = ```D:\Activities\orchestrator-service```
 
 ---
