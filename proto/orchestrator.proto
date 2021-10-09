@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option go_package = "github.com/JeetKaria06/orchestrator-service/proto";
+
+package proto;
+
+service orchestrator {
+    rpc GetUserByName (NameRequest) returns (User) {};
+}
+
+message NameRequest {
+    string name = 1;
+}
+
+message User {
+    string name = 1;
+    string class = 2;
+    int64 roll = 3;
+}
